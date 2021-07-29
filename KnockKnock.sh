@@ -7,7 +7,7 @@ read varName
 
 echo "Riiiight, good to see you again, $varName! Or should I call you Nosy Rosy 
 now? That's what I'm calling you. I don't care.
-Here's this computer's login informaation, Nosy Rosy:"
+Here's this computer's login information, Nosy Rosy:"
 
 last
 }
