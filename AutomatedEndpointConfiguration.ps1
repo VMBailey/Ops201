@@ -21,7 +21,7 @@ Enable-PSRemoting
 Get-AppxPackage *skype* | Remove-AppxPackage
 
 # Enable Hyper V
-Get-AppxPackage *skype* | Remove-AppxPackage
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 # Disable SMBv1
 Disable-WindowsOptionalFeature -Online -FeatureName smb1protocol
